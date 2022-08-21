@@ -1,0 +1,55 @@
+{
+  "name": "@crixu/vue3-html2pdf",
+  "version": "2.0.4",
+  "description": "#### Package Github: https://github.com/kempsteven/vue-html2pdf",
+  "main": "dist/vue3-html2pdf.umd.js",
+  "module": "dist/vue3-html2pdf.esm.js",
+  "unpkg": "dist/vue3-html2pdf.umd.min.js",
+  "files": [
+    "dist/*",
+    "src/**/*.vue"
+  ],
+  "scripts": {
+    "build": "vue-cli-service build --target lib"
+  },
+  "keywords": [
+    "pdf-generation",
+    "vuejs",
+    "client-side",
+    "html",
+    "canvas",
+    "html2pdf"
+  ],
+  "dependencies": {
+    "html2pdf.js": "^0.10.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.1.0",
+    "cross-env": "^7.0.3",
+    "minimist": "^1.2.0",
+    "sass": "^1.47.0",
+    "sass-loader": "^8.0.2",
+    "vue": "^3.2.37"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrixuAMG/vue3-html2pdf.git"
+  },
+  "author": "Christian Kaal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrixuAMG/vue3-html2pdf/issues"
+  },
+  "homepage": "https://github.com/CrixuAMG/vue3-html2pdf#readme"
+}
